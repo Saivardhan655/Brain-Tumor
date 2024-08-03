@@ -1,6 +1,9 @@
 import os
 from pathlib import Path
+import logging
+logging.basicConfig(level=logging.INFO,format='[%(asctime)s]: %(message)s:')
 
+project_name="Brain_Tumor"
 list_of_files=[
     ".github/workflows/.gitkeep",
     "src/__init__.py",

@@ -2,3 +2,13 @@ pandas
 scikit-learn
 matplotlib
 tensorflow
+mlflow==2.2.2
+gdown
+dvc
+notebook
+numpy
+seaborn
+scipy
+Flask
+
+-e .
